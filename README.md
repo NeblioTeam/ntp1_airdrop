@@ -10,7 +10,7 @@ NMi41ze2XnxJrMNGtSGheGqLR3h4dabREW
 
 Instructions
 ---------------------------- 
-1. Clone the repository `git clone https://github.com/TrifidTeam/trifid_airdrop/git`
+1. Clone the repository `git clone https://github.com/TrifidTeam/trifid_airdrop.git`
 
 2. Run the following commands in the same folder:
 `npm install git://github.com/NeblioTeam/bitcoinjs-lib.git#nebliojs-lib`
