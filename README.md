@@ -24,7 +24,7 @@ Instructions
 `npm install git://github.com/NeblioTeam/bitcoinjs-lib.git#nebliojs-lib`
 
 
-3. Set up the `secrets.json` and `snapshot.csv` files as below:
+3. Rename `secrets.json.template` to `secrets.json`. Set up the `secrets.json` and `snapshot.csv` files as below:
 
 secrets.json
 ```
@@ -75,20 +75,20 @@ TE5Jt57Ya624xGSXVqwqoKMde4tJNiTVye,32
 5. Once you are sure all addresses are valid, Run `node ntp1_airdrop.js`. This will use Neblio's APIs to broadcast 25 send_token requests at a time and pause to wait for 1 block confirmation before proceeding to the next 25.
 ```
 $ node ntp1_airdrop.js
-From:  TB3MvCyRKMyGDGN2mfbF1ZZUVEHxUD2Sh7
+From:  THYsXfM4kq4Ebjs4PXRt2AqX1q8D4DgW5v
 Private Key: ****************************************************
 Token ID:  La57kZVgLiELmHqX6CvTY8uaQVSiGRS3KiG3ng
 Network:  testnet
 Debug:  false
 ----------------
-Iteration:  1  of  21  Starting.
-Transaction 324aaf38cd7e457ac49107f479df4403162512714e7bb48f89a01fdff4460ed9 sent. Waiting for confirmation...
-Transaction 324aaf38cd7e457ac49107f479df4403162512714e7bb48f89a01fdff4460ed9 confirmed!
-Iteration:  2  of  21  Starting.
+Iteration:  1  of  10  Starting.
+Transaction 3539bfbbbc4c1248c8ee4d6efb74d06fc5c260ac35055edfdd4bc0ae3ca77bea sent. Waiting for confirmation...
+Transaction 3539bfbbbc4c1248c8ee4d6efb74d06fc5c260ac35055edfdd4bc0ae3ca77bea confirmed!
+Iteration:  2  of  10  Starting.
 ...
-Iteration:  21  of  21  Starting.
-Transaction 81d92f75c82d8be31eb20b9a33a960944305f9af7335c06e4d6b83a3a80a41b9 sent. Waiting for confirmation...
-Transaction 81d92f75c82d8be31eb20b9a33a960944305f9af7335c06e4d6b83a3a80a41b9 confirmed!
+Iteration:  10  of  10  Starting.
+Transaction 0047eb3271bf388bf536c214312f75e1e717caf0b86169541681afcd0514c3b6 sent. Waiting for confirmation...
+Transaction 0047eb3271bf388bf536c214312f75e1e717caf0b86169541681afcd0514c3b6 confirmed!
 ```
 
 
