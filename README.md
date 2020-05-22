@@ -12,6 +12,11 @@ This repository has been forked from the excellent work done by the Trifid Team.
 > If this tool has been helpful please donate NEBL and/or NTP1 tokens to our Dev Team Wallet:
 > NMi41ze2XnxJrMNGtSGheGqLR3h4dabREW
 
+## Prerequisites
+
+1. nodeJS v8.x (for airdrop script)
+2. Python (for address checker script)
+
 ## Instructions
 
 1. Clone the repository `git clone https://github.com/NeblioTeam/ntp1_airdrop.git`
