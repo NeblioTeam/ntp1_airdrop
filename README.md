@@ -20,6 +20,9 @@ This repository has been forked from the excellent work done by the Trifid Team.
 ## Instructions
 
 1. Clone the repository `git clone https://github.com/NeblioTeam/ntp1_airdrop.git`
+
+   OR  Download a .zip of the repo from https://github.com/NeblioTeam/ntp1_airdrop/archive/master.zip and extract it.
+
 ---
 
 2. Run the following commands:
